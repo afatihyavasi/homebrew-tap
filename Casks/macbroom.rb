@@ -11,6 +11,7 @@ cask "macbroom" do
   depends_on macos: :ventura
 
   app "MacBroom.app"
+
   # 1.0.0 is unsigned (no Apple Developer ID yet), so skip the Gatekeeper
   # quarantine prompt on install. Remove once releases are notarized.
   no_quarantine true
