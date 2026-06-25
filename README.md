@@ -11,9 +11,12 @@ brew install --cask afatihyavasi/tap/macbroom
 
 That's it — the 🧹 icon appears in your menu bar.
 
-> 1.0.0 is unsigned (no Apple Developer ID yet), so the cask sets
-> install with `--no-quarantine`, or right-click → Open the first time:
+> **Unsigned build:** 1.0.0 has no Apple Developer ID yet, so macOS Gatekeeper
+> may block it. Either install with `--no-quarantine`:
 >
 > ```bash
 > brew install --cask --no-quarantine afatihyavasi/tap/macbroom
 > ```
+>
+> or right-click MacBroom → **Open** the first time. Notarized releases will
+> open with no prompt.
