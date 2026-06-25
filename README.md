@@ -12,4 +12,8 @@ brew install --cask afatihyavasi/tap/macbroom
 That's it — the 🧹 icon appears in your menu bar.
 
 > 1.0.0 is unsigned (no Apple Developer ID yet), so the cask sets
-> `no_quarantine` to skip the Gatekeeper prompt. Notarized releases will drop it.
+> install with `--no-quarantine`, or right-click → Open the first time:
+>
+> ```bash
+> brew install --cask --no-quarantine afatihyavasi/tap/macbroom
+> ```
